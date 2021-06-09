@@ -1,0 +1,51 @@
+h1
+{
+     color: gray; 
+     text-align: center; 
+     font-family: "Georgia"; 
+     font-style: italic; 
+     text-decoration: underline; 
+}
+.flottant
+{
+	float: right;
+	width: 10%; height: 10%;
+}
+.txt
+{
+	text-align: center;
+    font-size: 1em;
+    font-family: "Time Now Roman";
+    font-weight: bold;
+}
+body
+{
+	background-image: url("miloud.jpg");
+	background-attachment: fixed;
+}
+h2
+{
+	color: black;
+	border: 3px gray inset;
+	box-shadow: 6px 6px 6px gray;
+	opacity: 0.6;
+	font-family: "Time Now Roman";
+	padding: 8px;
+	margin-top: 40px;
+	padding-left: 12px;
+}
+li
+{
+    color: 
+    ;
+    font-size: 1em;
+    font-family: "Time Now Roman";
+    padding-top: 20px;
+}
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+}
